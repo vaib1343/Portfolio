@@ -25,7 +25,7 @@ function project() {
                     <img src='/task.png' className='rounded-xl' />
                 </div>
                 <div className='w-1/2'>
-                    <p className='text-gray-600'>The platform facilitates with the user's task organisation using Jira as inspiration. This programme allows you to create tasks and change their status as needed</p>
+                    <p className='text-gray-600'>The platform facilitates with the user&apos;s task organisation using Jira as inspiration. This programme allows you to create tasks and change their status as needed</p>
                     <div className='mt-5'>
                         <Tag className='cursor-pointer'>
                             <a href='https://github.com/vaib1343/task_management'>Repo</a>
@@ -41,7 +41,7 @@ function project() {
                     <img src='/corona.png' className='rounded-xl' />
                 </div>
                 <div className='w-1/2'>
-                    <p className='text-gray-600'>This website offers a graphic portrayal of the COVID19 pandemic's global death toll and population of infected persons. Additionally, it provides data broken down by country on the number of fatalities, infected, and recovered people.</p>
+                    <p className='text-gray-600'>This website offers a graphic portrayal of the COVID19 pandemic&apos;s global death toll and population of infected persons. Additionally, it provides data broken down by country on the number of fatalities, infected, and recovered people.</p>
                     <div className='mt-5'>
                         <Tag className='cursor-pointer'>
                             <a href='https://github.com/vaib1343/covid'>Repo</a>
@@ -52,40 +52,6 @@ function project() {
                     </div>
                 </div>
             </div>
-            {/* <Card className={'w-[23rem]'}>
-                <Card.Header>
-                    <a href='https://bookit1343.vercel.app/' target='_blank'>
-                        <img className='w-[100%] rounded-xl' src='/bookit.png' />
-                        <h3 className='my-2 text-gray-500 text-lg font-bold'>Bookit</h3>
-                    </a>
-                </Card.Header>
-
-                <Card.Body className='h-[15rem]'>
-                    <p>A platform that helps people find hotels that suit their needs. It is built with an integrated Stripe payment system utilising nextjs and redux for state management.</p>
-                </Card.Body>
-            </Card>
-            <Card className={'w-[23rem]'}>
-                <Card.Header>
-                    <a href='https://vaib1343.github.io/covid' target='_blank'>
-                        <img className='w-[100%] rounded-xl' src='/corona.png' />
-                        <h3 className='my-2 text-gray-500 text-lg font-bold'>Coronameter</h3>
-                    </a>
-                </Card.Header>
-                <Card.Body className='h-[15rem]'>
-                    <p>This website offers a graphic portrayal of the COVID19 pandemic's global death toll and population of infected persons. Additionally, it provides data broken down by country on the number of fatalities, infected, and recovered people.</p>
-                </Card.Body>
-            </Card>
-            <Card className={'w-[23rem]'}>
-                <Card.Header>
-                    <a href='https://task-management-alpha.vercel.app/' target='_blank'>
-                        <img className='w-[100%] rounded-xl' src='/task.png' />
-                        <h3 className='my-2 text-gray-500 text-lg font-bold'>Bookit</h3>
-                    </a>
-                </Card.Header>
-                <Card.Body className='h-[15rem]'>
-                    <p>The platform facilitates with the user's task organisation using Jira as inspiration. This programme allows you to create tasks and change their status as needed.</p>
-                </Card.Body>
-            </Card> */}
         </div>
     );
 }

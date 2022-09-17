@@ -25,27 +25,27 @@ export default function Home() {
         <div>
             <div className='flex flex-wrap items-center justify-center'>
                 <Tag className='rounded-full'>
-                    <a href='https://instagram.com/noob.hav' target='_blank'>
+                    <a href='https://instagram.com/noob.hav' target='_blank' rel="noreferrer">
                         <SiInstagram />
                     </a>
                 </Tag>
                 <Tag className='rounded-full'>
-                    <a href='https://facebook.com/imvaib' target='_blank'>
+                    <a href='https://facebook.com/imvaib' target='_blank' rel="noreferrer">
                         <SiFacebook />
                     </a>
                 </Tag>
                 <Tag>
-                    <a href='https://www.linkedin.com/in/vaib1343/' target='_blank'>
+                    <a href='https://www.linkedin.com/in/vaib1343/' target='_blank' rel="noreferrer">
                         <SiLinkedin />
                     </a>
                 </Tag>
                 <Tag>
-                    <a href='https://github.com/vaib1343' target='_blank'>
+                    <a href='https://github.com/vaib1343' target='_blank' rel="noreferrer">
                         <SiGithub />
                     </a>
                 </Tag>
                 <Tag>
-                    <a className='https://twitter.com/VaibVarshney' target='_blank'>
+                    <a className='https://twitter.com/VaibVarshney' target='_blank' rel="noreferrer">
                         <SiTwitter />
                     </a>
                 </Tag>
