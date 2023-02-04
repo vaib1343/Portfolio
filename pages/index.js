@@ -6,6 +6,7 @@ import Heading from '../components/common/Heading/Heading';
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import Button from '../components/common/Button/Button';
+import { toast } from 'react-toastify';
 
 export default function Home() {
     const form = useRef();
@@ -18,10 +19,10 @@ export default function Home() {
         e.preventDefault();
         emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID).then(
             (result) => {
-                console.log(result.text);
+                toast.success('Send your mail successfully')
             },
             (error) => {
-                console.log(error.text);
+                toast.error('Unable to send')
             }
         );
     };
