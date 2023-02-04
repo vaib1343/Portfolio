@@ -10,9 +10,13 @@ import Button from '../components/common/Button/Button';
 export default function Home() {
     const form = useRef();
 
+    const SERVICE_ID = 'service_nswknwi';
+    const TEMPLATE_ID = 'template_jer1p6m';
+    const USER_ID = 'fOiVoiLc0LGZxeiEg';
+
     const handleSubmit = (e) => {
         e.preventDefault();
-        emailjs.sendForm('service_7gftwdf', 'template_xacdg8f', form.current, 'fOiVoiLc0LGZxeiEg').then(
+        emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID).then(
             (result) => {
                 console.log(result.text);
             },
@@ -25,27 +29,27 @@ export default function Home() {
         <div>
             <div className='flex flex-wrap items-center justify-center'>
                 <Tag className='rounded-full'>
-                    <a href='https://instagram.com/noob.hav' target='_blank' rel="noreferrer">
+                    <a href='https://instagram.com/noob.hav' target='_blank' rel='noreferrer'>
                         <SiInstagram />
                     </a>
                 </Tag>
                 <Tag className='rounded-full'>
-                    <a href='https://facebook.com/imvaib' target='_blank' rel="noreferrer">
+                    <a href='https://facebook.com/imvaib' target='_blank' rel='noreferrer'>
                         <SiFacebook />
                     </a>
                 </Tag>
                 <Tag>
-                    <a href='https://www.linkedin.com/in/vaib1343/' target='_blank' rel="noreferrer">
+                    <a href='https://www.linkedin.com/in/vaib1343/' target='_blank' rel='noreferrer'>
                         <SiLinkedin />
                     </a>
                 </Tag>
                 <Tag>
-                    <a href='https://github.com/vaib1343' target='_blank' rel="noreferrer">
+                    <a href='https://github.com/vaib1343' target='_blank' rel='noreferrer'>
                         <SiGithub />
                     </a>
                 </Tag>
                 <Tag>
-                    <a className='https://twitter.com/VaibVarshney' target='_blank' rel="noreferrer">
+                    <a className='https://twitter.com/VaibVarshney' target='_blank' rel='noreferrer'>
                         <SiTwitter />
                     </a>
                 </Tag>
@@ -116,9 +120,9 @@ export default function Home() {
                             {/* <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline' type='sumbit'>
                                 <SiGmail className='inline' /> Send
                             </button> */}
-                                <Button color='blue' className='text-white rounded' type='submit'>
-                                    <SiGmail className='inline' /> Send
-                                </Button>
+                            <Button color='blue' className='text-white rounded' type='submit'>
+                                <SiGmail className='inline' /> Send
+                            </Button>
                         </form>
                     </div>
                 </div>
